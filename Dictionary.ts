@@ -1,6 +1,6 @@
-type Words = {
+interface Words {
   [key: string]: string;
-};
+}
 
 class Dict {
   private words: Words;
